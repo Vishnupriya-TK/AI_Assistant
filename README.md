@@ -1,5 +1,3 @@
-
-````markdown
 # 🤖 AI Assistant Chatbot (React + Vite)
 
 A **React + Vite chatbot UI** that connects with an API service to simulate an AI assistant.  
@@ -18,9 +16,11 @@ It supports conversation tracking, auto-scrolls to the latest message, and shows
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, Vite  
-- **Styling:** CSS (custom classes)  
-- **API Handling:** Axios  
+| Layer      | Technology |
+|------------|------------|
+| **Frontend** | React, Vite |
+| **Styling**  | CSS (custom classes) |
+| **API**      | Axios |
 
 ---
 
@@ -32,38 +32,36 @@ src/
 │   ├── ChatbotIcon.jsx    # Chatbot avatar/icon
 │
 │── config/
-│   ├── api.js             # API service handler
+│   └── api.js             # API service handler
 │
 │── App.jsx                # Main chatbot UI logic
 │── main.jsx               # Entry point
 │── index.css              # Styles
-````
+```
 
 ---
 
 ## ⚡ Getting Started
 
 ### 1️⃣ Clone the repository
-
 ```bash
 git clone https://github.com/Vishnupriya-TK/AI_Assistant.git
 cd AI_Assistant
 ```
 
 ### 2️⃣ Install dependencies
-
 ```bash
 npm install
 ```
 
 ### 3️⃣ Run the development server
-
 ```bash
 npm run dev
 ```
-
 Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
-```
-[GitHub Pages Deployment](https://vishnupriya-tk.github.io/AI_Assistant/)  
-[Vercel Deployment](https://ai-assistant-lyart-eta.vercel.app/)
+---
+
+## 🌍 Live Deployments
+- 🔗 [GitHub Pages](https://vishnupriya-tk.github.io/AI_Assistant/)  
+- 🔗 [Vercel](https://ai-assistant-lyart-eta.vercel.app/)
